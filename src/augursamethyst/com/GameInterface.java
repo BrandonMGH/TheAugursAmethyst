@@ -44,11 +44,24 @@ public class GameInterface {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please select a class you would like to know more information about");
 
-        Thief ThiefClassInfo = new Thief()
+        Thief ThiefClassInfo = new Thief();
         Map Brawler = new TreeMap();
         Map Deacon = new TreeMap();
         Map Thief = new TreeMap();
         Map UnderStudy = new TreeMap();
+
+        return "Placeholder string";
+    }
+
+    public void checkHealth(int hitPoints){
+        if(hitPoints > 0){
+            System.out.println("Your current hit point count is " + hitPoints);
+        } else {
+            System.out.print("Your hit points are at 0.  Game Over");
+        }
+    }
+
+    public void gameOver(){
 
     }
 }

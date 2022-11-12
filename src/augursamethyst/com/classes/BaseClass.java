@@ -48,4 +48,8 @@ public class BaseClass {
         }
     }
 
+    public int returnHealth(){
+        return this.hitPoints;
+    }
+
 }
