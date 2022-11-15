@@ -30,6 +30,7 @@ public class GameInterface {
                 characterClass = sc.nextLine().toUpperCase();
             } else if(gameStartInput.equals("END GAME"))  {
                 System.out.println("Game Session Terminated.  Thank you for playing");
+
             } else {
                 System.out.println("Could not recognize response, please try again");
             }

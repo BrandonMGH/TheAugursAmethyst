@@ -5,7 +5,9 @@ import java.util.TreeMap;
 public class BaseClass {
     private Map baseStats = new TreeMap<>();
     private int hitPoints = 50;
-    private int level = 7;
+    private int baseAttackPower = 0;
+    private int baseSpellPower = 0;
+    private int level = 1;
     private int healthPotionCount = 3;
 
     public BaseClass(){
@@ -35,6 +37,7 @@ public class BaseClass {
         return enemyName + " has hit you with " + attackName + " for " + attackNumber + ". Your health points have been reduced to " + this.hitPoints;
 
     }
+
 
     public String usePotion(){
         if(healthPotionCount > 0) {

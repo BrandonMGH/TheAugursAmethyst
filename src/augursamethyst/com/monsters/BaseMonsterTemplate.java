@@ -18,4 +18,8 @@ public class BaseMonsterTemplate {
 
     }
 
+    public class Humanoid {
+
+    }
+
 }
